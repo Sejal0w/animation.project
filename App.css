@@ -1,0 +1,129 @@
+@import url('<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">');
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Inter",sans-serif;
+  font-optical-sizing: auto;
+}
+
+body{
+  min-height:100vh;
+  background:#222;
+}
+
+header {
+  position:fixed;
+  padding:30px 100px;
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+
+}
+
+header .logo 
+{
+  color:#fff;
+  font-size:2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+header ul 
+{
+  display:flex;
+  gap:40px;
+
+}
+
+header ul li{
+  list-style: none;
+}
+
+header ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color:#b9b9b9;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  transition: 0.5s;
+}
+
+header ul li a:hover,
+header ul li a.active
+{
+  color:#fff;
+
+}
+
+/* section hero */
+section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding:100px;
+  gap:100px;
+}
+
+section .Content{
+  max-width: 700px;
+
+}
+
+section .Content h2{
+  font-size:4.4em;
+  color:#fff;
+  font-weight: 700;
+}
+
+section .Content h2 b{
+  color:#0f0;
+  font-weight: 800;
+}
+
+
+section .Content p{
+  color:#999;
+  font-size:1.1em;
+  font-weight: 500;
+}
+
+section .Content .btn{
+  padding:20px 15px;
+  font-size: 18px;
+  border-radius: 6px;
+  background-color: #fff;
+  color:#222;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 25px;
+  letter-spacing: 0.2em;
+}
+
+section .container
+{
+  position: relative;
+  right:100px;
+  min-width:400px;
+  /* background: red;
+  width:400px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+
+}
+
+section .container .element {
+  position: relative;
+  width:40px;
+  height:40px;
+  background: rgb(188,255,188);
+  scale: 0.75;
+}
